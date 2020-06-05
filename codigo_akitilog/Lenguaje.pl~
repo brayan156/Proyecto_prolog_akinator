@@ -1,0 +1,660 @@
+%DEFINICIÓN DE VOCABULARIO%
+
+
+%Verbos%
+%con su definicion de numero y la persona verbal en la que
+%están conjugados
+
+verbo(sing,tercera,[tiene|L],L).
+verbo(plu,tercera,[tienen|L],L).
+verbo(sing,tercera,[tenía|L],L).
+verbo(plu,tercera,[tenían|L],L).
+verbo(sing,tercera,[trabaja|L],L).
+verbo(plu,tercera,[trabajan|L],L).
+verbo(sing,tercera,[trabajaba|L],L).
+verbo(plu,tercera,[trabajaban|L],L).
+verbo(sing,tercera,[trabajó|L],L).
+verbo(sing,tercera,[vive|L],L).
+verbo(plu,tercera,[viven|L],L).
+verbo(sing,tercera,[vivía|L],L).
+verbo(sing,tercera,[vivió|L],L).
+verbo(sing,_,[ser|L],L).
+verbo(sing,tercera,[es|L],L).
+verbo(plu,tercera,[son|L],L).
+verbo(sing,tercera,[fue|L],L).
+verbo(sing,tercera,[era|L],L).
+verbo(plu,tercera,[eran|L],L).
+verbo(_,_,[sido|L],L).
+verbo(sing,tercera,[cumple|L],L).
+verbo(sing,tercera,[cumplió|L],L).
+verbo(plu,tercera,[nacieron|L],L).
+verbo(sing,tercera,[nació|L],L).
+verbo(sing,_, [jugar|L],L).
+verbo(sing,_, [hablar|L],L).
+verbo(sing,_, [hacer|L],L).
+verbo(sing,_, [reir|L],L).
+verbo(sing,_, [gobernar|L],L).
+verbo(sing,_, [investigar|L],L).
+verbo(sing,_, [experimentar|L],L).
+verbo(sing,_, [ir|L],L).
+verbo(sing,_, [va|L],L).
+verbo(sing,tercera,[hace|L],L).
+verbo(sing, _, [ha|L],L).
+verbo(sing,tercera,[llama|L],L).
+verbo(sing,tercera,[parece|L],L).
+verbo(sing,tercera,[dedica|L],L).
+verbo(sing,tercera,[ejerce|L],L).
+verbo(sing, _, [dado|L],L).
+verbo(sing, _, [dada|L],L).
+verbo(_ ,_ ,[cumplido|L],L).
+
+
+%Adjetivos%
+
+adjetivo(['0'|L],L).
+adjetivo(['1'|L],L).
+adjetivo(['2'|L],L).
+adjetivo(['3'|L],L).
+adjetivo(['4'|L],L).
+adjetivo(['5'|L],L).
+adjetivo(['6'|L],L).
+adjetivo(['7'|L],L).
+adjetivo(['8'|L],L).
+adjetivo(['9'|L],L).
+adjetivo(['10'|L],L).
+adjetivo(['11'|L],L).
+adjetivo(['12'|L],L).
+adjetivo(['13'|L],L).
+adjetivo(['14'|L],L).
+adjetivo(['15'|L],L).
+adjetivo(['16'|L],L).
+adjetivo(['17'|L],L).
+adjetivo(['18'|L],L).
+adjetivo(['19'|L],L).
+adjetivo(['20'|L],L).
+adjetivo(['21'|L],L).
+adjetivo(['22'|L],L).
+adjetivo(['23'|L],L).
+adjetivo(['24'|L],L).
+adjetivo(['25'|L],L).
+adjetivo(['26'|L],L).
+adjetivo(['27'|L],L).
+adjetivo(['28'|L],L).
+adjetivo(['29'|L],L).
+adjetivo(['30'|L],L).
+adjetivo(['31'|L],L).
+adjetivo(['32'|L],L).
+adjetivo(['33'|L],L).
+adjetivo(['34'|L],L).
+adjetivo(['35'|L],L).
+adjetivo(['36'|L],L).
+adjetivo(['37'|L],L).
+adjetivo(['38'|L],L).
+adjetivo(['39'|L],L).
+adjetivo(['40'|L],L).
+adjetivo(['41'|L],L).
+adjetivo(['42'|L],L).
+adjetivo(['43'|L],L).
+adjetivo(['44'|L],L).
+adjetivo(['45'|L],L).
+adjetivo(['46'|L],L).
+adjetivo(['47'|L],L).
+adjetivo(['48'|L],L).
+adjetivo(['49'|L],L).
+adjetivo(['50'|L],L).
+adjetivo(['51'|L],L).
+adjetivo(['52'|L],L).
+adjetivo(['53'|L],L).
+adjetivo(['54'|L],L).
+adjetivo(['55'|L],L).
+adjetivo(['56'|L],L).
+adjetivo(['57'|L],L).
+adjetivo(['58'|L],L).
+adjetivo(['59'|L],L).
+adjetivo(['60'|L],L).
+adjetivo(['61'|L],L).
+adjetivo(['62'|L],L).
+adjetivo(['63'|L],L).
+adjetivo(['64'|L],L).
+adjetivo(['65'|L],L).
+adjetivo(['66'|L],L).
+adjetivo(['67'|L],L).
+adjetivo(['68'|L],L).
+adjetivo(['69'|L],L).
+adjetivo(['70'|L],L).
+adjetivo(['71'|L],L).
+adjetivo(['72'|L],L).
+adjetivo(['73'|L],L).
+adjetivo(['74'|L],L).
+adjetivo(['75'|L],L).
+adjetivo(['76'|L],L).
+adjetivo(['77'|L],L).
+adjetivo(['78'|L],L).
+adjetivo(['79'|L],L).
+adjetivo(['80'|L],L).
+adjetivo(['81'|L],L).
+adjetivo(['82'|L],L).
+adjetivo(['83'|L],L).
+adjetivo(['84'|L],L).
+adjetivo(['85'|L],L).
+adjetivo(['86'|L],L).
+adjetivo(['87'|L],L).
+adjetivo(['88'|L],L).
+adjetivo(['89'|L],L).
+adjetivo(['90'|L],L).
+
+adjetivo([masculino|L],L).
+adjetivo([hombre|L],L).
+adjetivo([varón|L],L).
+adjetivo([macho|L],L).
+adjetivo([chico|L],L).
+
+adjetivo([femenino|L],L).
+adjetivo([mujer|L],L).
+adjetivo([hembra|L],L).
+adjetivo([chica|L],L).
+
+
+
+adjetivo([deportista|L],L).
+adjetivo([corredora|L],L).
+adjetivo([corredor|L],L).
+adjetivo([atleta|L],L).
+adjetivo([jugador|L],L).
+adjetivo([portero|L],L).
+adjetivo([portera|L],L).
+adjetivo([delantero|L],L).
+adjetivo([delantera|L],L).
+adjetivo([futbolista|L],L).
+adjetivo([boxeador|L],L).
+adjetivo([boxeadora|L],L).
+adjetivo([ciclista|L],L).
+adjetivo([nadador|L],L).
+adjetivo([nadadora|L],L).
+
+
+adjetivo([cantante|L],L).
+adjetivo([solista|L],L).
+adjetivo([cantautor|L],L).
+adjetivo([cantautora|L],L).
+
+adjetivo([científico|L],L).
+adjetivo([científica|L],L).
+adjetivo([físico|L],L).
+adjetivo([física|L],L).
+adjetivo([astronauta|L],L).
+adjetivo([investigador|L],L).
+adjetivo([investigadora|L],L).
+adjetivo([bióloga|L],L).
+
+
+
+
+
+adjetivo([televisión|L],L).
+adjetivo([actor|L],L).
+adjetivo([actriz|L],L).
+adjetivo([presentador|L],L).
+adjetivo([presentadora|L],L).
+
+
+adjetivo([político|L],L).
+adjetivo([política|L],L).
+adjetivo([presidente|L],L).
+adjetivo([expresidente|L],L).
+adjetivo([ministro|L],L).
+adjetivo([ministra|L],L).
+adjetivo([diputado|L],L).
+adjetivo([diputada|L],L).
+adjetivo([presidenta|L],L).
+adjetivo([expresidenta|L],L).
+
+adjetivo([comediante|L],L).
+adjetivo([standup|L],L).
+adjetivo([cuentachistes|L],L).
+
+adjetivo([alajuelense|L],L).
+adjetivo([sanjose|L],L).
+adjetivo([alajuela|L],L).
+adjetivo([cartago|L],L).
+adjetivo([heredia|L],L).
+adjetivo([guanacaste|L],L).
+adjetivo([puntarenas|L],L).
+adjetivo([limón|L],L).
+adjetivo([nicaragua|L],L).
+adjetivo([matagalpa|L],L).
+adjetivo([managua|L],L).
+
+adjetivo(['1940'|L],L).
+adjetivo(['1941'|L],L).
+adjetivo(['1942'|L],L).
+adjetivo(['1943'|L],L).
+adjetivo(['1944'|L],L).
+adjetivo(['1945'|L],L).
+adjetivo(['1946'|L],L).
+adjetivo(['1947'|L],L).
+adjetivo(['1948'|L],L).
+adjetivo(['1949'|L],L).
+adjetivo(['1950'|L],L).
+adjetivo(['1951'|L],L).
+adjetivo(['1952'|L],L).
+adjetivo(['1953'|L],L).
+adjetivo(['1954'|L],L).
+adjetivo(['1955'|L],L).
+adjetivo(['1956'|L],L).
+adjetivo(['1957'|L],L).
+adjetivo(['1958'|L],L).
+adjetivo(['1959'|L],L).
+adjetivo(['1960'|L],L).
+adjetivo(['1961'|L],L).
+adjetivo(['1962'|L],L).
+adjetivo(['1963'|L],L).
+adjetivo(['1964'|L],L).
+adjetivo(['1965'|L],L).
+adjetivo(['1966'|L],L).
+adjetivo(['1967'|L],L).
+adjetivo(['1968'|L],L).
+adjetivo(['1969'|L],L).
+adjetivo(['1970'|L],L).
+adjetivo(['1971'|L],L).
+adjetivo(['1972'|L],L).
+adjetivo(['1973'|L],L).
+adjetivo(['1974'|L],L).
+adjetivo(['1975'|L],L).
+adjetivo(['1976'|L],L).
+adjetivo(['1977'|L],L).
+adjetivo(['1978'|L],L).
+adjetivo(['1979'|L],L).
+adjetivo(['1980'|L],L).
+adjetivo(['1981'|L],L).
+adjetivo(['1982'|L],L).
+adjetivo(['1983'|L],L).
+adjetivo(['1984'|L],L).
+adjetivo(['1985'|L],L).
+adjetivo(['1986'|L],L).
+adjetivo(['1987'|L],L).
+adjetivo(['1988'|L],L).
+adjetivo(['1989'|L],L).
+adjetivo(['1990'|L],L).
+adjetivo(['1991'|L],L).
+adjetivo(['1992'|L],L).
+adjetivo(['1993'|L],L).
+adjetivo(['1994'|L],L).
+adjetivo(['1995'|L],L).
+adjetivo(['1996'|L],L).
+adjetivo(['1997'|L],L).
+adjetivo(['1998'|L],L).
+adjetivo(['1999'|L],L).
+adjetivo(['2001'|L],L).
+adjetivo(['2002'|L],L).
+adjetivo(['2003'|L],L).
+adjetivo(['2004'|L],L).
+adjetivo(['2005'|L],L).
+adjetivo(['2006'|L],L).
+adjetivo(['2007'|L],L).
+adjetivo(['2008'|L],L).
+adjetivo(['2009'|L],L).
+adjetivo(['2010'|L],L).
+
+
+%Sustantivo%
+sustantivo(sing,masc,[lugar|L],L).
+sustantivo(sing,masc,[nacimiento|L],L).
+sustantivo(sing,masc,[genero|L],L).
+sustantivo(sing,masc,[sexo|L],L).
+sustantivo(sing,fem,[profesión|L],L).
+sustantivo(sing,fem,[edad|L],L).
+sustantivo(sing,masc,[año|L],L).
+sustantivo(plu,masc,[años|L],L).
+sustantivo(sing,fem,[fecha|L],L).
+sustantivo(sing,fem,[provincia|L],L).
+sustantivo(sing,masc,[trabajo|L],L).
+sustantivo(sing,masc,[empleo|L],L).
+sustantivo(sing,fem,[luz|L],L).
+sustantivo(sing,fem,[persona|L],L).
+sustantivo(sing,masc,[personaje|L],L).
+sustantivo(sing,masc,[famoso|L],L).
+sustantivo(sing,fem,[famosa|L],L).
+sustantivo(sing,masc,[conocido|L],L).
+sustantivo(sing,fem,[conocida|L],L).
+sustantivo(sing,fem,[ciudad|L],L).
+sustantivo(sing,masc,[cantón|L],L).
+sustantivo(sing,masc,[fútbol|L],L).
+sustantivo(plu,masc,[experimentos|L],L).
+sustantivo(plu,fem,[noticias|L],L).
+
+
+
+
+
+
+%Determinantes%
+
+determinante(sing, masc, tercera, [el|S], S).
+determinante(sing, fem, tercera, [la|S], S).
+determinante(plu, masc, tercera, [los|S], S).
+determinante(plu, fem, tercera, [las|S], S).
+
+determinante(sing, masc, tercera, [un|S], S).
+determinante(sing, fem, tercera, [una|S], S).
+determinante(plu, masc, tercera, [unos|S], S).
+determinante(plu, fem, tercera, [unas|S], S).
+
+determinante(sing, _, _, [mi|S], S).
+determinante(plu, _, _, [mis|S], S).
+determinante(sing, _, _, [su|S], S).
+determinante(plu, _, _, [sus|S], S).
+
+determinante(sing, masc, _, [este|S], S).
+determinante(plu, masc, _, [estos|S], S).
+determinante(sing, fem, _, [esta|S], S).
+determinante(plu, masc, _, [estas|S], S).
+determinante(sing, masc, _, [aquel|S], S).
+determinante(sing, fem, _, [aquella|S], S).
+
+
+determinante(sing, masc, tercera, [un|S], S).
+determinante(sing, fem, tercera, [una|S], S).
+determinante(plu, masc, tercera, [unos|S], S).
+determinante(plu, fem, tercera, [unas|S], S).
+
+determinante(plu, masc, _, [algunos|S], S).
+determinante(plu, masc, _, [pocos|S], S).
+determinante(plu, masc, _, [varios|S], S).
+determinante(sing, masc, _, [demasiado|S], S).
+determinante(plu, masc, _, [demasiados|S], S).
+determinante(sing, fem, _, [demasiada|S], S).
+determinante(plu, fem, _, [demasiadas|S], S).
+
+determinante(sing, _, _, [que|S], S).
+determinante(sing, _, _, [cuanto|S], S).
+determinante(sing, _, _, [cuanta|S], S).
+determinante(sing, _, _, [como|S], S).
+
+%Adverbio%
+adverbio([aqui|L],L).
+adverbio([alla|L],L).
+adverbio([lejos|L],L).
+adverbio([cerca|L],L).
+adverbio([hoy|L],L).
+adverbio([temprano|L],L).
+adverbio([menos|L],L).
+adverbio([poco|L],L).
+adverbio([muy|L],L).
+adverbio([bastante|L],L).
+adverbio([mucho|L],L).
+adverbio([no|L],L).
+adverbio([si|L],L).
+adverbio([además|L],L).
+
+%Pronombres%
+pronombre(sing, _, primera, [yo|L], L).
+pronombre(sing,_,segunda,[tu|L],L).
+pronombre(sing,masc,tercera,[él|L],L).
+pronombre(sing,fem,tercera,[ella|L],L).
+pronombre(plu,masc,tercera,[ellos|L],L).
+pronombre(plu,fem,tercera,[ellas|L],L).
+pronombre(plu,masc,primera,[nosotros|L],L).
+pronombre(plu,fem,primera,[nosotras|L],L).
+pronombre([me|L], L).
+pronombre([te|L], L).
+pronombre([se|L], L).
+pronombre([nos|L], L).
+pronombre([os|L], L).
+pronombre([que|L], L).
+
+%Proposiciones%
+preposicion([a|L],L).
+preposicion([con|L],L).
+preposicion([de|L],L).
+preposicion([desde|L],L).
+preposicion([en|L],L).
+preposicion([para|L],L).
+preposicion([por|L],L).
+preposicion([al|L],L).
+preposicion([del|L],L).
+
+
+%Estructura de oraciones%
+
+
+sujeto(Num, Gen, Pers, L0, L):-
+    determinante(Num, Gen, Pers, L0, L1),
+    sustantivo(Num,Gen,L1,L).
+
+sujeto(Num, Gen, Pers, L0, L):-
+    pronombre(Num, Gen, Pers, L0, L).
+
+predicado(Num, _, Pers, L0, L):-
+    verbo(Num,Pers,L0,L1),
+    sujeto(_,_,_,L1,L).
+
+predicado(Num,_,Pers,L0,L):-
+    verbo(Num, Pers, L0, L).
+
+
+conjuncion([y|L],L).
+
+
+oracion(L0,L):-
+    sujeto(Num, _, Pers, L0, L1),
+    predicado(Num, _, Pers, L1, L).
+
+oracion(L0, L) :-
+    pronombre(Num, Gen, Pers, L0, L1),
+    predicado(Num, Gen, Pers, L1, L).
+
+oracion(L0, L) :-
+    pronombre(Num,_,Pers,L0, L1),
+    predicado(Num, _, Pers, L1, L).
+
+oracion(L0, L) :-
+    predicado(_, _, _, L0, L1),
+    adjetivo(L1, L).
+
+oracion(L0, L) :-
+    pronombre(_,_,_,L0, L1),
+    verbo(_,_,L1,L2),
+    adjetivo(L2, L).
+
+oracion(L0, L) :-
+    sujeto(Num, Gen, Pers, L0, L1),
+    predicado(Num, Gen, Pers, L1, L2),
+    adjetivo(L2, L).
+
+oracion(L0, L) :-
+    sujeto(Num, Gen, Pers, L0, L1),
+    predicado(Num, Gen, Pers, L1, L2),
+    preposicion(L2,L3),
+    adjetivo(L3, L).
+
+oracion(L0, L) :-
+    predicado(_,_,_,L0,L1),
+    preposicion(L1,L2),
+    determinante(_,_,_,L2,L3),
+    adjetivo(L3,L).
+
+oracion(L0, L) :-
+    adjetivo(L0, L1),
+    sujeto(_, _, _, L1, L2),
+    predicado(_, _, _, L2, L3),
+    adjetivo(L3, L).
+
+oracion(L0, L) :-
+    sujeto(Num, Gen, Pers, L0, L1),
+    adverbio(L1, L2),
+    predicado(Num, Gen, Pers, L2, L).
+
+oracion(L0, L) :-
+    adjetivo(L0, L1),
+    sujeto(_, _, _, L1, L2),
+    predicado(_, _, _, L2, L3),
+    predicado(_, _, _, L3, L).
+
+oracion(L0, L) :-
+    sujeto(Num, Gen, Pers, L0, L1),
+    adverbio(L1, L2),
+    predicado(Num, Gen, Pers, L2, L).
+
+oracion(L0, L) :-
+    predicado(Num, Gen, Pers, L0, L1),
+    sujeto(Num, Gen, Pers, L1, L2),
+    adverbio(L2, L).
+
+oracion(L0, L) :-
+    predicado(Num, Gen, Pers, L0, L1),
+    sujeto(Num, Gen, Pers, L1, L).
+
+oracion(L0, L) :-
+    sujeto(Num, Gen, Pers, L0, L1),
+    pronombre(L1, L2),
+    predicado(Num, Gen, Pers, L2, L).
+
+oracion(L0, L) :-
+    adverbio(L0, L1),
+    determinante(Num, Gen, Pers, L1, L2),
+    predicado(Num, Gen, Pers, L2, L).
+
+oracion(L0, L) :-
+    adverbio(L0, L1),
+    predicado(_, _, _, L1, L).
+
+oracion(L0, L) :-
+    sujeto(_, _, _, L0, L1),
+    preposicion(L1,L2),
+    sustantivo(_,_,L2,L3),
+    verbo(_,_,L3,L4),
+    determinante(_,_,_,L4,L5),
+    adjetivo(L5,L).
+
+oracion(L0, L) :-
+    sujeto(_, _, _, L0, L1),
+    preposicion(L1,L2),
+    sustantivo(_,_,L2,L3),
+    verbo(_,_,L3,L4),
+    adjetivo(L4,L).
+
+oracion(L0,L):-
+    pronombre(Num,_,Pers,L0,L1),
+    verbo(Num,Pers,L1,L2),
+    adjetivo(L2,L3),
+    sustantivo(_,_,L3,L).
+
+oracion(L0,L):-
+    pronombre(Num,_,_,L0,L1),
+    verbo(Num,_,L1,L2),
+    verbo(Num,_,L2,L3),
+    preposicion(L3,L4),
+    sustantivo(_,_,L4,L5),
+    preposicion(L5,L6),
+    adjetivo(L6,L).
+
+oracion(L0,L):-
+    pronombre(_,_,_,L0,L1),
+    verbo(_,_,L1,L2),
+    verbo(_,_,L2,L3),
+    adjetivo(L3,L).
+
+oracion(L0,L):-
+    sujeto(_,_,_,L0,L1),
+    pronombre(L1,L2),
+    verbo(_,_,L2,L3),
+    preposicion(L3,L4),
+    determinante(_,_,_,L4,L5),
+    adjetivo(L5,L).
+
+oracion(L0,L):-
+    sujeto(_,_,_,L0,L1),
+    pronombre(L1,L2),
+    verbo(_,_,L2,L3),
+    preposicion(L3,L4),
+    verbo(_,_,L4,L5),
+    adjetivo(L5,L).
+
+oracion(L0,L):-
+    sujeto(_,_,_,L0,L1),
+    verbo(_,_,L1,L2),
+    determinante(Num,Gen,_,L2,L3),
+    sustantivo(Num,Gen,L3,L4),
+    preposicion(L4,L5),
+    adjetivo(L5,L).
+
+oracion(L0,L):-
+    sujeto(_,_,_,L0,L1),
+    pronombre(L1,L2),
+    verbo(_,_,L2,L3),
+    preposicion(L3,L4),
+    sustantivo(_,_,L4,L).
+
+
+oracion(L0,L):-
+    sujeto(_,_,_,L0,L1),
+    pronombre(L1,L2),
+    verbo(_,_,L2,L3),
+    preposicion(L3,L4),
+    verbo(_,_,L4,L5),
+    verbo(_,_,L5,L).
+
+oracion(L0,L):-
+    sujeto(_,_,_,L0,L1),
+    verbo(_,_,L1,L2),
+    preposicion(L2,L3),
+    verbo(_,_,L3,L).
+
+oracion(L0,L):-
+    sujeto(_,_,_,L0,L1),
+    verbo(_,_,L1,L2),
+    preposicion(L2,L3),
+    verbo(_,_,L3,L4),
+    verbo(_,_,L4,L).
+oracion(L0,L):-
+    adverbio(L0,L).
+oracion(L0,L):-
+    adverbio(L0,L1),
+    oracion(L1,L).
+
+oracion(L0,L):-
+    pronombre(_,_,_,L0,L1),
+    verbo(_,_,L1,L2),
+    adjetivo(L2,L3),
+    preposicion(L3,L4),
+    sustantivo(_,_,L4,L).
+oracion(L0,L):-
+    verbo(_,_,L0,L1),
+    preposicion(L1,L2),
+    adjetivo(L2,L).
+oracion(L0,L):-
+    verbo(_,_,L0,L1),
+    verbo(_,_,L1,L2),
+    adjetivo(L2,L3),
+    sustantivo(_,_,L3,L).
+oracion(L0,L):-
+    pronombre(_ , _ , _,L0,L1),
+    verbo(_ ,_ ,L1,L2),
+    verbo(_ ,_ ,L2,L3),
+    adjetivo(L3,L4),
+    sustantivo(_ ,_ ,L4,L).
+oracion(L0,L):-
+    adverbio(L0,L1),
+    verbo(_,_,L1,L2),
+    adjetivo(L2,L).
+oracion(L0,L):-
+    pronombre( _, _, _,L0,L1),
+    verbo(_ , _,L1,L2),
+    adjetivo(L2,L3),
+    sustantivo( _, _,L3,L).
+oracion(L0,L):-
+    adverbio(L0,L1),
+    verbo(_ ,_ ,L1,L2),
+    adjetivo(L2,L3),
+    sustantivo(_ ,_ ,L3,L).
+oracion(L0,L):-
+    verbo(_ , _,L0,L1),
+    adjetivo(L1,L2),
+    sustantivo( _, _,L2,L).
+oracion(L0,L):-
+    adverbio(L0,L1),
+    verbo( _, _,L1,L2),
+    preposicion(L2,L3),
+    adjetivo(L3,L).
+
